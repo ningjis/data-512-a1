@@ -1,10 +1,13 @@
 # HCDS 512 Assignment 1 - Data curation
 
-# Goal of the project
+# Goal of the Project
 The goal of this projrct is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through August 30 2021. In this project, data about Wikipedia page traffic from two different Wikimedia REST API endpoints are combined into a single dataset.Some simple data processing steps are performed on the data, and the analysis is done based on tbe processsed data. All steps are performed in a single Jupyter notebook, `hcds-a1-data-curation.ipynb`. The five JSON-formatted source data file is available, with the naming convention for the source data files being `apiname_accesstype_firstmonth-lastmonth.json`, and the analysis is done based on `en-wikipedia_traffic_200712-202108.csv`, with the final result shown in `result.png`.
 
-# License of Source Data
-
+# License & Term of Use
+The source data of this project is from Wikimedia Foundation REST API (https://www.mediawiki.org/wiki/Wikimedia_REST_API):
+* Licensed under the CC-BY-SA 3.0 and GFDL licenses
+* Terms of use: https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions
+* Privacy policy: https://foundation.wikimedia.org/wiki/Privacy_policy
 
 # APIs
 * Wikimedia Legacy Pagecounts API : https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
@@ -12,7 +15,7 @@ The goal of this projrct is to construct, analyze, and publish a dataset of mont
 
 # Curated Data
 
-The processed data are stored into a single CSV file with the following headers:
+The processed data are stored into a single CSV file, `en-wikipedia_traffic_200712-202108.csv`, with the following headers:
 
 | Column | Value | 
 | ------ | ------ |
