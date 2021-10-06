@@ -10,6 +10,7 @@ The source data of this project is from Wikimedia Foundation REST API (https://w
 * Privacy policy: https://foundation.wikimedia.org/wiki/Privacy_policy
 
 # APIs
+The documentation for the two APIs can be found here:
 * Wikimedia Legacy Pagecounts API : https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
 * Wikimedia Pageviews API : https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 
